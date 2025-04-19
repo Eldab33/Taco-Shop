@@ -1,0 +1,111 @@
+body {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 30px;
+    font-family: roboto;
+    background: linear-gradient(180deg, #dbdbdb, #d1d1d1);
+}
+
+h1 {
+    text-align: center;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 10);
+    padding: 1px 5px;
+    background: #222;
+    border-radius: 5px;
+}
+
+li a:hover {
+    color: blue;
+}
+
+li a:active {
+    color: red;
+}
+
+
+.taco-drink-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.8em;
+    color: #252525;
+    margin-top: 5px;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+hr {
+    height: 1px;
+    background-color: #000000;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+}
+
+tr,
+th,
+td {
+    border: 2px solid black;
+    width: 50px;
+    text-align: center;
+}
+
+.back-to-top {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.back-to-top a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-to-top a:hover {
+    background-color: #555;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:target {
+    animation: highlight 1s ease;
+}
+
+@keyframes highlight {
+    0% {
+        background-color: rgba(255, 255, 0, 0.3);
+    }
+
+    100% {
+        background-color: transparent;
+    }
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-size: 0.9em;
+}
